@@ -17,7 +17,7 @@ class AppContainer extends HTMLElement {
         this.shadowRoot!.innerHTML = `
         <dashboard-container></dashboard-container>
 
-       <h1>Welcome, pick a color and letter<h1>
+       <h1>Welcome, pick a color and letter!<h1>
        <input type="color"/>
 
        <input type="text"/>
