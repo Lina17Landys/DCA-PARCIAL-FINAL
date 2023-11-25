@@ -1,8 +1,12 @@
-export default {
-  apiKey: "AIzaSyCsv8Q3gid_H4ZnOopsR2LsrfmVtENfCig",
-  authDomain: "ejemplo-18.firebaseapp.com",
-  projectId: "ejemplo-18",
-  storageBucket: "ejemplo-18.appspot.com",
-  messagingSenderId: "331457677220",
-  appId: "1:331457677220:web:b4e71557f7df5708126331",
+const firebaseConfig = {
+  apiKey: "AIzaSyBDIGSGcXR5B3gOZ2SwIC_Kr7ekGXP2qW0",
+  authDomain: "examen-3-be570.firebaseapp.com",
+  projectId: "examen-3-be570",
+  storageBucket: "examen-3-be570.appspot.com",
+  messagingSenderId: "661496505513",
+  appId: "1:661496505513:web:cd41efefa99baf9bebf5b8",
+  measurementId: "G-F83FVVCKEK"
 };
+
+import { initializeApp } from "firebase/app";
+const app = initializeApp(firebaseConfig);

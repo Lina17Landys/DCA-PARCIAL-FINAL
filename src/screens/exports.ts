@@ -1,0 +1,1 @@
+import { default as dashboard} from "./dashboard";
