@@ -24,7 +24,7 @@ export default class login extends HTMLElement {
         <h1>Welcome, pick a color and letter!<h1>
         <input type="color"/>
  
-        <input type="text"/>
+        <input type="text" id="letter"/>
  
      <button>Next</button>
         `
