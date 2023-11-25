@@ -26,7 +26,7 @@ export default class login extends HTMLElement {
  
         <input type="text"/>
  
-        <button>Next</button>
+     <button>Next</button>
         `
     }
 }

@@ -13,8 +13,9 @@ class dashboard extends HTMLElement {
         this.shadowRoot?.appendChild(something);
 
 
-        
+
         this.shadowRoot!.innerHTML = `
+        <p>hola</p>
         `
     }
 }

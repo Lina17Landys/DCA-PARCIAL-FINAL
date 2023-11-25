@@ -18,6 +18,15 @@ class AppContainer extends HTMLElement {
         this.shadowRoot!.innerHTML = `
         <login-form></login-form>
         `
+
+       // switch (key) {
+       //     case value:
+                
+      //          break;
+        
+     //       default:
+      //          break;
+      //  }
     }
 }
 
