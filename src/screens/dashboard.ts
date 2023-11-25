@@ -1,3 +1,4 @@
+import {grid} from "../components/grid"
 class dashboard extends HTMLElement {
     constructor(){
         super();
@@ -15,7 +16,7 @@ class dashboard extends HTMLElement {
 
 
         this.shadowRoot!.innerHTML = `
-        <p>hola</p>
+        <grid-container></grid-container>
         `
     }
 }

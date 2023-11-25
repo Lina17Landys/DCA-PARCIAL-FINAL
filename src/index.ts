@@ -1,6 +1,7 @@
 import "./components/export"
 import "./screens/exports"
 import "./screens/login"
+import "./screens/dashboard"
 class AppContainer extends HTMLElement {
     constructor(){
         super();
@@ -17,6 +18,7 @@ class AppContainer extends HTMLElement {
 
         this.shadowRoot!.innerHTML = `
         <login-form></login-form>
+        <dashboard-container></dashboard-container>
         `
 
        // switch (key) {
