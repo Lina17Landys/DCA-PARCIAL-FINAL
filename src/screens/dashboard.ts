@@ -1,5 +1,5 @@
 import {grid} from "../components/grid"
-class dashboard extends HTMLElement {
+export class dashboard extends HTMLElement {
     constructor(){
         super();
         this.attachShadow({mode: "open"})

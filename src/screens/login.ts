@@ -1,7 +1,7 @@
 import { colorLetter } from "../components/inputs";
 import styles from "./styles.css"
 
-export default class login extends HTMLElement {
+export class login extends HTMLElement {
     constructor(){
         super();
         this.attachShadow({mode: "open"})
