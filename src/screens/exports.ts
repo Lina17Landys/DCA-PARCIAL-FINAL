@@ -1,1 +1,1 @@
-import { default as dashboard} from "./dashboard";
+import { default as dashboard} from "./login";
